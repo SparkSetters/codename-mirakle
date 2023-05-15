@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0fc; /* Pastel purple */
+    color: #4a154b; /* Dark purple */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fad2e9; /* Pastel pink */
+}
+
+header #logo {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #4a154b; /* Dark purple */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#contact-form {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #fad2e9; /* Pastel pink */
+}
